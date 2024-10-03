@@ -1,0 +1,54 @@
+h1 {
+  text-align: center;
+  font-size: 60px;
+  color: teal;
+}
+#calculator {
+  width: 400px;
+  border: 2px solid black;
+  margin: auto;
+  padding: 40px;
+  border-radius: 30px;
+  background-color: dimgrey;
+}
+#display {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  border: 1px solid black;
+  width: 100%;
+  border-radius: 10px;
+  background-color: white;
+  font-size: 50px;
+}
+#keyboard {
+  display: grid;
+  grid-template-columns: repeat(4, 92px);
+  grid-template-rows: repeat(4, 90px);
+  gap: 10px;
+  margin-top: 10px;
+}
+#keyboard > div {
+  border: 1px solid black;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+#keyboard > div:hover {
+  background-color: steelblue;
+  color: white;
+}
+.keys {
+  background-color: yellowgreen;
+}
+.operation {
+  background-color: black;
+  color: white;
+}
+.clear {
+  background-color: red;
+  color: white;
+}
